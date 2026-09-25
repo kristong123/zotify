@@ -1,0 +1,139 @@
+{
+    "backend": "pip",
+    "injected_packages": {},
+    "main_package": {
+        "app_paths": [
+            {
+                "__Path__": "C:\\Users\\krist\\pipx\\venvs\\zotify\\Scripts\\zotify.exe",
+                "__type__": "Path"
+            }
+        ],
+        "app_paths_of_dependencies": {
+            "charset-normalizer": [
+                {
+                    "__Path__": "C:\\Users\\krist\\pipx\\venvs\\zotify\\Scripts\\normalizer.exe",
+                    "__type__": "Path"
+                }
+            ],
+            "idna": [
+                {
+                    "__Path__": "C:\\Users\\krist\\pipx\\venvs\\zotify\\Scripts\\idna.exe",
+                    "__type__": "Path"
+                }
+            ],
+            "mutagen": [
+                {
+                    "__Path__": "C:\\Users\\krist\\pipx\\venvs\\zotify\\Scripts\\mid3cp.exe",
+                    "__type__": "Path"
+                },
+                {
+                    "__Path__": "C:\\Users\\krist\\pipx\\venvs\\zotify\\Scripts\\mid3iconv.exe",
+                    "__type__": "Path"
+                },
+                {
+                    "__Path__": "C:\\Users\\krist\\pipx\\venvs\\zotify\\Scripts\\mid3v2.exe",
+                    "__type__": "Path"
+                },
+                {
+                    "__Path__": "C:\\Users\\krist\\pipx\\venvs\\zotify\\Scripts\\moggsplit.exe",
+                    "__type__": "Path"
+                },
+                {
+                    "__Path__": "C:\\Users\\krist\\pipx\\venvs\\zotify\\Scripts\\mutagen-inspect.exe",
+                    "__type__": "Path"
+                },
+                {
+                    "__Path__": "C:\\Users\\krist\\pipx\\venvs\\zotify\\Scripts\\mutagen-pony.exe",
+                    "__type__": "Path"
+                }
+            ],
+            "tabulate": [
+                {
+                    "__Path__": "C:\\Users\\krist\\pipx\\venvs\\zotify\\Scripts\\tabulate.exe",
+                    "__type__": "Path"
+                }
+            ],
+            "tqdm": [
+                {
+                    "__Path__": "C:\\Users\\krist\\pipx\\venvs\\zotify\\Scripts\\tqdm.exe",
+                    "__type__": "Path"
+                }
+            ],
+            "websocket-client": [
+                {
+                    "__Path__": "C:\\Users\\krist\\pipx\\venvs\\zotify\\Scripts\\wsdump.exe",
+                    "__type__": "Path"
+                }
+            ]
+        },
+        "apps": [
+            "zotify.exe"
+        ],
+        "apps_of_dependencies": [
+            "normalizer.exe",
+            "idna.exe",
+            "wsdump.exe",
+            "mid3cp.exe",
+            "mid3iconv.exe",
+            "mid3v2.exe",
+            "moggsplit.exe",
+            "mutagen-inspect.exe",
+            "mutagen-pony.exe",
+            "tabulate.exe",
+            "tqdm.exe"
+        ],
+        "include_apps": true,
+        "include_dependencies": false,
+        "man_pages": [],
+        "man_pages_of_dependencies": [
+            "man1\\mid3cp.1",
+            "man1\\mid3iconv.1",
+            "man1\\mid3v2.1",
+            "man1\\moggsplit.1",
+            "man1\\mutagen-inspect.1",
+            "man1\\mutagen-pony.1"
+        ],
+        "man_paths": [],
+        "man_paths_of_dependencies": {
+            "mutagen": [
+                {
+                    "__Path__": "C:\\Users\\krist\\pipx\\venvs\\zotify\\share\\man\\man1\\mid3cp.1",
+                    "__type__": "Path"
+                },
+                {
+                    "__Path__": "C:\\Users\\krist\\pipx\\venvs\\zotify\\share\\man\\man1\\mid3iconv.1",
+                    "__type__": "Path"
+                },
+                {
+                    "__Path__": "C:\\Users\\krist\\pipx\\venvs\\zotify\\share\\man\\man1\\mid3v2.1",
+                    "__type__": "Path"
+                },
+                {
+                    "__Path__": "C:\\Users\\krist\\pipx\\venvs\\zotify\\share\\man\\man1\\moggsplit.1",
+                    "__type__": "Path"
+                },
+                {
+                    "__Path__": "C:\\Users\\krist\\pipx\\venvs\\zotify\\share\\man\\man1\\mutagen-inspect.1",
+                    "__type__": "Path"
+                },
+                {
+                    "__Path__": "C:\\Users\\krist\\pipx\\venvs\\zotify\\share\\man\\man1\\mutagen-pony.1",
+                    "__type__": "Path"
+                }
+            ]
+        },
+        "package": "zotify",
+        "package_or_url": "git+https://github.com/Googolplexed0/zotify.git",
+        "package_version": "0.17.3",
+        "pinned": false,
+        "pip_args": [],
+        "suffix": ""
+    },
+    "pipx_metadata_version": "0.6",
+    "python_version": "Python 3.14.6",
+    "source_interpreter": {
+        "__Path__": "C:\\Users\\krist\\scoop\\apps\\python\\current\\python.exe",
+        "__type__": "Path"
+    },
+    "venv_args": []
+}

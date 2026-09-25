@@ -1,0 +1,18 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(C:/Users/krist/pipx/venvs/zotify/Scripts/python.exe -c \"import PIL; print\\(PIL.__version__\\)\")",
+      "Bash(C:/Users/krist/pipx/venvs/zotify/Scripts/python.exe -c \"import music_tag; print\\(music_tag.__version__\\)\")",
+      "PowerShell(Get-ChildItem *)",
+      "PowerShell(& \"C:\\\\Users\\\\krist\\\\pipx\\\\venvs\\\\zotify\\\\Scripts\\\\python.exe\" -c \"import librespot; print\\(librespot.__version__ if hasattr\\(librespot, '__version__'\\) else 'no version attr'\\)\" 2>&1)",
+      "PowerShell(& \"C:\\\\Users\\\\krist\\\\pipx\\\\venvs\\\\zotify\\\\Scripts\\\\python.exe\" -m pip index versions librespot 2>&1 | Select-Object -First 5)",
+      "PowerShell($metaCount = \\(Get-ChildItem \"$env:LOCALAPPDATA\\\\Packages\\\\59BEBC1A.djay_e3tqh12mt5rj6\\\\LocalCache\\\\Local\\\\Algoriddim\\\\djay\\\\Metadata\\\\\" -Recurse -File -ErrorAction SilentlyContinue\\).Count; Write-Host \"Metadata files: $metaCount\")",
+      "PowerShell(Get-Content *)",
+      "PowerShell($djayPath = \"$env:LOCALAPPDATA\\\\Packages\\\\59BEBC1A.djay_e3tqh12mt5rj6\\\\LocalCache\\\\Local\\\\Algoriddim\\\\djay\\\\Metadata\"; $matches = Get-ChildItem $djayPath -Recurse -File | ForEach-Object { $content = [System.IO.File]::ReadAllBytes\\($_.FullName\\); $text = [System.Text.Encoding]::UTF8.GetString\\($content\\); if \\($text -match '\\\\.flac'\\) { $_.Name } }; Write-Host \"Metadata files referencing .flac: $\\($matches.Count\\)\")",
+      "PowerShell(python -c \"import spotipy; print\\(spotipy.__version__\\)\" 2>&1)",
+      "PowerShell(python -c \"import requests; print\\(requests.__version__\\)\" 2>&1)",
+      "PowerShell(ffmpeg *)",
+      "PowerShell(Set-Content *)"
+    ]
+  }
+}
